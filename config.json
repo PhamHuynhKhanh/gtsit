@@ -3,7 +3,7 @@
     "PORT": "3000",
     "BASE_URL": "/api",
     "mongodb": {
-        "host": "localhost:27017",
+        "host": "PhamHuynhKhanh:khanhpham722@ds163850.mlab.com:63850",
         "database": "chat"
     },
     "DOMAIN": "192.168.1.103",
