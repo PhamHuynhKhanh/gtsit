@@ -6,7 +6,7 @@
         "host": "PhamHuynhKhanh:khanhpham722@ds163850.mlab.com:63850",
         "database": "chat"
     },
-    "DOMAIN": "192.168.1.103",
+    "DOMAIN": "https://gtsitchat.herokuapp.com",
     "socket": {
         "name": {
             "search": "search",
