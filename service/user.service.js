@@ -88,7 +88,7 @@ function uploadFile(request) {
                         if (type === '.png' || type === '.jpg' || type === '.jpeg' || type === '.JPG' || type === '.x-icon') {
                             var binaryData = new Buffer(base64Data, 'base64').toString('binary');//Read File You Send To
                             fs.writeFile('public/avatar/' + nameImg + type, binaryData, "binary", function (err) {
-                                url = configServer.HTTP + configServer.DOMAIN + ':' + configServer.PORT + '/static/' + nameImg + type;
+                                url = configServer.DOMAIN + '/static/' + nameImg + type;
                                 if (userModel.image) {
                                     var urlArr = userModel.image.split('/');
 
