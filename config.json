@@ -1,0 +1,17 @@
+{
+    "HTTP":"http://",
+    "PORT": "3000",
+    "BASE_URL": "/api",
+    "mongodb": {
+        "host": "localhost:27017",
+        "database": "chat"
+    },
+    "DOMAIN": "192.168.1.103",
+    "socket": {
+        "name": {
+            "search": "search",
+            "MAKE_FRIEND": "MAKE_FRIEND",
+            "CHAT": "CHAT"
+        }
+    }
+}
